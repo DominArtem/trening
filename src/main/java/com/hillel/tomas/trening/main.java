@@ -1,9 +1,7 @@
 package com.hillel.tomas.trening;
 
 import javax.swing.*;
-import java.util.Arrays;
-import java.util.Scanner;
-import java.util.SortedMap;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicStampedReference;
 
 public class main {
@@ -309,7 +307,7 @@ public class main {
 //        int a = 123;
 //        System.out.println(a % 10);
 
-        int[] array = new int[5];
+//        int[] array = new int[5];
 //        int[] array2 = new int[] {1,2,3,4,5};
 //        int[] array3 = {1,2,3,4,5};
 //        int array4[] = new int[5];
@@ -322,18 +320,393 @@ public class main {
 
 
 
-        for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random() * 11);
-        }
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
-        }
+//        for (int i = 0; i < array.length; i++) {
+//            array[i] = (int) (Math.random() * 11);
+//        }
+//        for (int i = 0; i < array.length; i++) {
+//            System.out.print(array[i] + " ");
+//        }
+//        int[] array2 = new int[] {1,2,3,4,5};
+//
+//        int sum = 0;
+//
+//        for ( int a: array2) {
+//            System.out.println(a);
+//           sum += a;
+////
+//        }
 
 
 
+//        int [] array3 = new int[10];
+//
+//
+//        for (int i = 0; i < array3.length; i++) {
+//            array3[i] = (int) (Math.random() * 11);
+//            if (i == array3.length - 1) {
+//                System.out.print(array3[i]);
+//
+//            }else {
+//                System.out.print(array3[i] + ", ");
+//
+//            }
+//        }
+//        int [] array3 = new int[10];
+//
+//
+//        for (int i = 0; i < array3.length; i++) {
+//            array3[i] = (int) (Math.random() * 11);
+//            if (i < array3.length - 1) {
+//                System.out.print(array3[i] + ", ");
+//
+//            } else {
+//                System.out.print(array3[i]);
+//
+//            }
+//        }
+//        int [] array3 = new int[10];
+//
+//
+//
+//        for (int i = 0; i < array3.length; i++) {
+//            array3[i] = (int) (Math.random() * 101);
+//        }
+//        System.out.println(Arrays.toString(array3));
+//        int max = array [0];
+//        int index = 0;
+//        for (int i = 1; i < array3.length; i++) {
+//
+//            if (max < array3[i]) {
+//                max = array3[i];
+//                index = i;
+//            }
+//
+//        }
+//        System.out.print("index : " + index + ", chance " + max);
+
+//        int [] array = {1,2,3,4,5};
+//        int [] array2 = array;
+//        System.out.println(Arrays.toString(array));
+//        System.out.println(Arrays.toString(array2));
+//
+//        array2[0] = 9;
+//        array2 [4] = 8;
+//
+//        System.out.println(Arrays.toString(array));
+//        System.out.println(Arrays.toString(array2));
+
+//        int [] team = new int [10];
+//
+//        int sumMain = 0;
+//        int sumRes = 0;
+//
+//        for (int i = 0; i < team.length; i++) {
+//            team[i] = (int) (Math.random() * 10);
+//            if (i % 2 == 0) {
+//                sumMain += team[i];
+//            }else{
+//                sumRes += team[i];
+//            }
+////            for (int j = 0; j < team.length; j++) {
+////                team[j] = (int) (Math.random() * 10);
+//            }
+//
+//            System.out.println(Arrays.toString(team));
+//        System.out.println(sumMain);
+//        System.out.println(sumRes);
+
+//        Scanner scanner = new Scanner(System.in);
+//
+//
+//        int [] team1 = new int[5];
+//        int [] team2 = new int[5];
+//
+//        for (int i = 0; i < team1.length; i++) {
+//            System.out.println("Plese" + (i +1));
+//            if (scanner.hasNextInt()){
+//                team1[i] = scanner.nextInt();
+//            }else {
+//                System.out.println("wrong");
+//                scanner.nextLine();
+//                i--;
+//            }
+//
+//
+//        }
+//        System.out.println(Arrays.toString(team1));
+//
+//        for (int i = 0; i < team2.length; i++) {
+//            System.out.println("Plese" + (i +1));
+//            if (scanner.hasNextInt()){
+//                team2[i] = scanner.nextInt();
+//            }else {
+//                System.out.println("wrong");
+//                scanner.nextLine();
+//                i--;
+//            }
+//
+//
+//        }
+//        System.out.println(Arrays.toString(team2));
+//
+//
+//        int sumFrag1 = 0;
+//        int sumFrag2 = 0;
+//
+//        for (int frag: team1) {
+//            System.out.println(frag);
+//            sumFrag1 +=frag;
+//            System.out.println(sumFrag1);
+//
+//        }
+//        int[] team = new int[25];
+//
+//        for (int i = 0; i < team.length; i++) {
+//            team[i] = (int) (Math.random() * 23) + 18;
+//
+//        }
+//        System.out.println(Arrays.toString(team));
+//
+//        for (int i = 0; i < team.length; i++) {
+//            System.out.print(team[i] + ", ");
+//
+//        }
+
+//        int couter = 4;
+//        for (int i = 9; couter < 5 ; i--) {
+//            if (!(String.valueOf(i).contains("4") || String.valueOf(i).contains("9"))) {
+//                System.out.println("number " + i);
+//                couter++;
+//            }
+//
+//        }
+//        System.out.println("counter = " + couter);
+
+
+//        int [] array = {5,13,54,6,1,87,-7,3,7};
+
+//        Arrays.sort(array);
+//        System.out.println(Arrays.toString(array));
+
+//        int b;
+//
+//        for (int i = 0; i < array.length; i++) {
+//            for (int j = 0; j < array.length - 1 - i; j++) {
+//                if (array[j]  > array[j + 1] ){
+//                    b = array[j];
+//                    array[j] = array[j + 1];
+//                    array[j + 1] = b;
+//            }
+//
+//            }
+//            }
+//        System.out.println(Arrays.toString(array));
+
+
+//        int [] array = {5,13,54,6,1,87,-7,3,7};
+//        int [] array3 = {2,2};
+//        Arrays.sort(array);
+//        System.out.println(Arrays.toString(array));
+//
+//        int [] array2 = Arrays.copyOf(array3, 15);
+//
+//        System.out.println(Arrays.toString(array2));
+//
+//
+//        System.arraycopy(array2, 7, array, 8, 1);
+//
+//        int N = -1;
+//
+//
+//
+//        Scanner scanner = new Scanner(System.in);
+//
+//        do {
+//            if(scanner.hasNextInt()) {
+//                N = scanner.nextInt();
+//                if (N >= 0 & N % 2 == 0 ) {
+//                    break;
+//                }else{
+//                    System.out.println("dsfsddsfsd");
+//                }
+//            }else{
+//                System.out.println("Wrong data");
+//                scanner.nextLine();
+//            }
+//        }while (true);
+//
+//        Integer[] sourse = new Integer[N];
+//        for (int i = 0; i < sourse.length; i++) {
+//            sourse[i] = (int) (Math.random() * 51);
+//
+//        }
+//        int niddle = sourse.length / 2 ;
+//
+//        Integer[] array1 = Arrays.copyOf(sourse, niddle);
+//        Integer[] array2 = Arrays.copyOfRange(sourse, niddle, sourse.length);
+//
+//        System.out.println(Arrays.toString(array1));
+//        System.out.println(Arrays.toString(array2));
+//        System.out.println();
+//
+//        Arrays.sort(array1);
+//        System.out.println(Arrays.toString(array1));
+//        System.out.println();
+//        Arrays.sort(array2, Collections.reverseOrder());
+//        System.out.println(Arrays.toString(array2));
+
+
+//        boolean N = true;
+//
+//        int number = 1;
+//
+//        int[][] array = new int[5][5];
+//
+//        for (int i = 0; i < array.length; i++) {
+//            for (int j = 0; j < array[i].length; j++) {
+//                if ( i == j ){
+//                    array[i][j] = number;
+//                }
+//            }
+//        }
+//        for (int i = 0; i < array.length; i++) {
+//            for (int j = 0; j < array[i].length; j++) {
+//                System.out.print(array[i][j] + "\t");
+//            }
+//            System.out.println();
+//        }
+//
+//        System.out.println();
+//
+
+//        int number1 = 1;
+
+//        int[][] array1 = {
+//                {0,0,0,0,0},
+//                {2,2,2,2,2},
+//                {3,3,3,3,3},
+//                {4,4,4,4,4},
+//                {5,5,5,5,5}
+//        };
+
+//        for (int i = 0; i < array1.length; i++) {
+//            for (int j = 0; j < array1[i].length ; j++) {
+//                    if (i + j == array1.length - 1){
+//                        array1[i][j] = 1;
+//                    }
+//                }
+//            }
+
+
+//        for (int i = 0; i < array1.length; i++) {
+//            array1[i][array1[i].length - i - 1] = 1;
+//
+//        }
+//
+//        for (int i = 0; i < array1.length; i++) {
+//            for (int j = 0; j < array1[i].length; j++) {
+//                System.out.print(array1[i][j] + " \t");
+//
+//            }
+//            System.out.println();
+//        }
+
+
+//        String[][] buc = new String[8][8] ;
+//        String a = "b";
+//        String d = "w";
 
 
 
+//        for (int i = 0; i < buc.length; i++) {
+//            for (int j = 0; j < buc[i].length; j++) {
+//                if ((i + j) % 2 == 0){
+//                    buc[i][j] = a;
+//                }else{
+//                    buc[i][j] = d;
+//                }System.out.print(buc[i][j] + " \t");
+//            }
+//            System.out.println();
+//        }
+//        for (int i = 0; i < buc.length; i++) {
+//            for (int j = 0; j < buc[i].length; j++) {
+//                System.out.print(buc[i][j] + " \t");
+//            }
+//            System.out.println();
+//        }
+//
+//        int[][] arr = new int[5][5];
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr[i].length; j++) {
+//                arr[i][j] = (int) (Math.random() * 101);
+//
+//            }
+//        }
+//        System.out.println("After");
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr[i].length; j++) {
+//                System.out.print(arr[i][j] + " \t");
+//            }
+//            System.out.println();
+//        }
+//        System.out.println();
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = i + 1; j < arr[i].length; j++) {
+//                int temp = arr[i][j];
+//                arr[i][j] = arr[j][i];
+//                arr[j][i] = temp;
+//            }
+//        }
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr[i].length; j++) {
+//                System.out.print(arr[i][j] + " \t");
+//            }
+//            System.out.println();
+////        }
+//        String str = "Hello";
+//        printHello();
+//        printStr(str);
+//        int k = 6;
+//        int c = 3;
+//        printSum(5, 2);
+//        printSum(k, c);
+//
+        int d = 15;
+        int y = 70;
+//
+//        System.out.println(y);
+//
+//        int y = 30;
+//        System.out.println(y);
+        doStuff(d);
+        System.out.println(d);
+//
+//
+//
+//
+//
+    }
+//
+//    final  static void printHello(){
+//        System.out.println("Hello world");
+//    }
+//
+//
+//    static void printStr(String str){
+//        System.out.println("str: " + str);
+//    }
+//
+//    static void printSum(int a, int b){
+//        System.out.println("sum: " + (a+b));
+//        a=10;
+//        b=2;
+//    }
 
-        }
+    static void doStuff (int y){
+        System.out.println(y);
+    }
+
 }
