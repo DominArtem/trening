@@ -2,7 +2,7 @@ package com.hillel.tomas.trening2;
 
 public class Person {
 
-    String name;
+    public String name;
     int age;
     Car car;
     Car car1;
